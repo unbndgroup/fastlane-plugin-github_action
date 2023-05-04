@@ -3,6 +3,9 @@
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-github_action)
 [![Gem Version](https://badge.fury.io/rb/fastlane-plugin-github_action.svg)](https://badge.fury.io/rb/fastlane-plugin-github_action)
 
+## About this fork
+This fork adds support for multiple project repositories to use a single match repo by using the org/repo as a part of the deploy key name
+
 ## About github_action
 
 [GitHub Actions](https://github.com/features/actions) makes it easy to build, test, and deploy your code right from GitHub. However, etting up [_fastlane_](https://github.com/fastlane/fastlane) to work with [match](https://docs.fastlane.tools/actions/match/#match) on GitHub Actions can take bit of juggling and manual work :pensive:
